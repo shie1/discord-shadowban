@@ -3,10 +3,10 @@ FROM node:latest
 RUN mkdir -p /app
 WORKDIR /app
 
-COPY package.json /usr/src/bot
+COPY package.json /app
 RUN npm install
 
-COPY . /usr/src/bot
+COPY . /app
 
 # Start the bot.
 CMD ["node", "index.js"]

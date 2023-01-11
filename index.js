@@ -1,6 +1,5 @@
 // imports
 const Discord = require('discord.js')
-require('dotenv').config()
 require('enve')
 
 const client = new Discord.Client()

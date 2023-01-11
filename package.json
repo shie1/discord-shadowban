@@ -5,7 +5,6 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.5.3",
-    "dotenv": "^9.0.2",
     "enve": "^1.0.4"
   },
   "devDependencies": {
